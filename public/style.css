@@ -1,0 +1,323 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+.navbar{
+    width: 100%;
+    height: 100px;
+    background: white;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+ul{
+    margin-right: 100px;
+}
+li{
+    display: inline-block;
+    font-size: 18px;
+    padding-left: 30px;
+    padding-top: 40px;
+}
+.logo{
+    margin-left: 100px;
+}
+span{
+    color:  #00cc66;
+}
+.logo p{
+    font-size: 10px;
+    margin-top: -20px;
+    color: black !important;
+}
+.header{
+    background-image: url("images/CJYT2q.jpg");
+    width: 100%;
+    height: 650px;
+}
+.heading h1,h2{
+    color: white;
+    text-align: center;
+    font-size: 36px;
+    position: relative;
+    top: 100px;
+}
+.def{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    position: relative;
+    top: 268px;
+}
+.header .def div{
+   background:  #00cc66;
+   width: 400px;
+   height: 200px;
+}
+.header .def div h1,p{
+    color: white;
+    text-align: center;
+}
+.container{
+    background: #f0f0f5;
+    width: 100%;
+    height: auto;
+}
+.container .images{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-wrap: wrap !important;
+}
+.container .images img{
+    width: 400px;
+    height: 200px;
+}
+.container .para1 h1,h3{
+    text-align: center;
+    color: black;
+}
+.container .para1 h1{
+    font-size: 42px;
+}
+.container .para1 h3{
+    font-size: 38px;
+}
+.icons{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+.icons .maindiv{
+    width: 200px;
+    height: 400px;
+    text-align: center;
+}
+.icons div p{
+    color: black;
+}
+.icons .iconshape1{
+    width: 120px;
+    height: 120px;
+    background:  #00cc66;
+    border-radius: 100%;
+    display: block;
+    margin: 0 auto;
+}
+.icons .iconshape1 a{
+    font-size: 80px;
+    color: white;
+    text-align: center;
+    line-height: 120px;
+}
+.icons .iconshape2{
+    width: 120px;
+    height: 120px;
+    background: grey;
+    border-radius: 100%;
+    display: block;
+    margin: 0 auto;
+}
+.icons .iconshape2 a{
+    font-size: 80px;
+    color: white;
+    text-align: center;
+    line-height: 120px;
+}
+.icons div button{
+    border: none ;
+    font-size: 20px;
+}
+.icons div button span{
+    color:  #00cc66;
+}
+.icons .iconshape1 h6{
+    color:   #00cc66;
+    position: relative;
+    bottom: 90px;
+    font-size: 14px;
+}
+.topics{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    text-align: center;
+    width: 100%;
+    height: auto;
+    background:white;
+    margin-bottom: 10px;
+}
+.topics h1{
+    color:  #00cc66;
+}
+.topics div{
+    width: 400px;
+    height: auto;
+    margin-top: 10px;
+}
+.topics div img{
+    width: 100%;
+    height: 200px;
+}
+.topics div p{
+    color: black !important;
+    padding: 3px;
+}
+.topics .btn1{
+    width: 80px;
+    height: 40px;
+    color: white;
+    background:  #00cc66;
+    border-radius: 10px;
+}
+.topics .btn2{
+    width: 80px;
+    height: 40px;
+    color: white;
+    background: black;
+    border-radius: 10px;
+}
+.cp{
+    position: relative;
+    left: 60px;
+    width: 60% !important;
+    height: auto !important;
+}
+.fluid{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    height: auto;
+    background:#f0f0f5;
+    padding: 10px;
+}
+.fluid div{
+    width: 280px;
+    height: auto;
+}
+.fluid div h1{
+    color:  #00cc66;
+    font-size: 40px;
+}
+.fluid div h4{
+    font-size: 20px;
+}
+.fluid div p{
+    text-align: left;
+    color: black !important;
+}
+.fluid div p a{
+    color:  #00cc66;
+}
+.fluid div button{
+    border: none;
+    background: none;
+    color: black;
+}
+.footer{
+    width: 100%;
+    height: 300px;
+    background: gray;
+}
+.footer .icons{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+    position: relative;
+    top: 30px;
+}
+.footer .icons a{
+    color: white !important;
+    font-size: 30px;
+    padding-left: 10px; 
+}
+.footer h1{
+    color: white;
+    text-align: center;
+    font-size: 38px;
+}
+.lsticon{
+    width: 30px;
+    height: 30px;
+    border-radius: 100%;
+    background: white;
+    display: block;
+    margin: 0 auto;
+}
+.lsticon a{
+    color: black;
+    font-size: 16px;
+    padding-left: 8px;
+
+}
+@media only screen and (max-width:1050px){
+    .navbar{
+        width: 100%;
+        height: auto;
+    } 
+    .navbar li{
+        margin-left: 30px;
+    }
+    .def div{
+        width: 30% !important;
+        height: auto !important;
+        display: flex !important;
+        flex-direction: row !important;
+        justify-content: space-around !important;
+        flex-wrap: wrap !important;
+    }
+    .container .images{
+        display: flex !important;
+        flex-direction: row !important;
+        justify-content: space-around !important;
+        flex-wrap: wrap !important;
+    }
+    .container .images img{
+        width: 30% !important;
+        height: 300px !important;
+    }
+    
+}
+@media only screen and (max-width:650px){
+    .navbar{
+        width: 10%;
+        height: auto;
+    }
+    .navbar .logo{
+        margin-left: 10px;
+    }
+    .navbar li{
+        text-align: left;
+    }
+    .header{
+        width: 100% !important;
+        height: 450px !important;
+    }
+    .def div{
+        width: auto !important;
+        height: auto !important;
+        margin-top: 2px ;
+    }
+    .container .images{
+        margin-top: 510px !important;
+    }
+    .container .images img{
+        width: 100% !important;
+        height: 200px !important;
+        margin-top: 2px !important;
+    }
+}
+@media only screen and (max-width:380px){
+    .container .images{
+        margin-top: 640px !important;
+    }
+    .container .images img{
+       margin-top: 2px !important;
+    }
+}
